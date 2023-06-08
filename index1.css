@@ -1,0 +1,148 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 17vw 83vw;
+  grid-template-rows: 10vh 10vh 80vh;
+}
+
+.sidebar {
+  grid-column: 1/2;
+  grid-row: 1/4;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: 50px 130px;
+}
+
+header {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  /* border: 1px solid black; */
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+nav {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  /* border: 1px solid black; */
+}
+
+.body {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  /* border: 1px solid black; */
+}
+
+.profile {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.hr {
+  grid-column: 1/3;
+  width: 15vw;
+  height: 1px;
+  background-color: rgb(181, 174, 174);
+}
+
+h3 {
+  grid-column: 1/3;
+  margin-left: 30px;
+}
+
+i {
+  font-size: 22px;
+  align-self: center;
+  margin-left: 30px;
+}
+
+.sidebar p {
+  align-self: center;
+  margin-left: 30px;
+}
+
+.sidebar img {
+  align-self: center;
+  margin-left: 30px;
+}
+
+header .first {
+  align-content: space-between;
+  margin-top: 11px;
+  margin-left: 121px;
+  grid-gap: 15px;
+}
+
+header input {
+  width: 40vw;
+  height: 5vh;
+  border-right: 15px;
+  border-right-color: rgb(133, 126, 126);
+  border-radius: 50px;
+  margin-left: 15px;
+  text-indent: 15px;
+}
+
+.first button {
+  position: absolute;
+  margin-left: -45px;
+  margin-top: 4px;
+}
+
+header button {
+  height: 5vh;
+  width: 3vw;
+  border-left: none;
+  border-radius: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.series {
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+}
+
+.series button {
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  height: fit-content;
+}
+
+.bttn {
+  background-color: black;
+  width: fit-content;
+  border-radius: 10px;
+  border: none;
+}
+
+nav .bttn a {
+  color: white;
+  text-decoration: white;
+}
+
+.nested {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 11px;
+}
+
+figure h3 {
+  margin-top: -25px;
+}
+
+video {
+  border-radius: 20px;
+}
